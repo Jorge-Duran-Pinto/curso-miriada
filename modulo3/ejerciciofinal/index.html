@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora de CORE</h1>
+    <br></br>
+    Número:
+  <input type="text" id="n1">
+  <button onclick="Reset()">reset</button>
+  <br><br>
+  <h2>Info sobre el Número</h2>
+  <h3>Operaciones unitarias</h3>
+  <button onclick="Cuadrado()">x<sup>2</sup></button>
+  <button onclick="Modulo()">mod</button>
+  <button onclick="Factorial()">n!</button>
+
+  <h3>Operaciones binarias</h3>
+  <button onclick="Suma()">+</button>
+  <button onclick="Resta()">-</button>
+  <button onclick="Multiplicacion()">*</button>
+  <button onclick="Division()">·/·</button>
+  <button onclick="Iq()">=</button>
+
+  <h3>Operaciones en formato CSV</h3>
+  <button onclick="Sumatorio()">Σ</button>
+  <button onclick="Ordenar()">ordenar</button>
+  <button onclick="Revertir()">revertir</button>
+  <button onclick="Quitar()">quitar</button>
+  <p><strong>Resultado: </strong><span id="resultado">0</p></p>
+<script src="script.js"></script>   
+</body>
+</html>

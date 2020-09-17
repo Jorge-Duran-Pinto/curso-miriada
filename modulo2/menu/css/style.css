@@ -1,0 +1,23 @@
+body{
+    background: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background: white;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding:8px;
+
+}
+li:hover{
+    background: black;
+    color: white;
+}

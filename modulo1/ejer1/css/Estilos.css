@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #aaaaaa;
+}
+h1, h2, h3, h4, h5, h6, .section__titulo{
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1.5px;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+p{
+    color: chocolate;
+    size: 50px;
+    
+}
+ul{
+    color: violet;
+}

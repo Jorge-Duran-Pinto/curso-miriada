@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background: cadetblue;
+    font-family: 'Open Sans',sans-serif;
+    margin: 20px;
+}
+header{
+    height: 85px;
+    background: coral;
+}
+article{
+    width: 500px;
+    color: cadetblue;
+    background: coral;    
+}
+footer{
+padding: 20px;
+text-align: center;
+background: coral;
+justify-content: flex-end;
+display: block;
+}
