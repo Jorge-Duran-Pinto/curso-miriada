@@ -46,7 +46,7 @@ function Division(){
     contador /= num1;
     pintarResultado(contador);
 }
-//Operadores en formato CSV
+//Operadores en formato CSVasdfasdfasd
 function Sumatorio(){
     let num = document.getElementById("n1");
     let list = num.value.split(",");
