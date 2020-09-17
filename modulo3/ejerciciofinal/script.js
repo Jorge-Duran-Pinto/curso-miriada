@@ -62,7 +62,7 @@ function ordenar(){
     contador = list;
     pintarResultado(contador);    
 }   
-//Resultado
+//Resultado modificado
 function pintarResultado(number) {
     const resultado = document.getElementById("resultado")
     resultado.innerHTML = number;
